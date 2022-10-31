@@ -1,0 +1,30 @@
+﻿@page "/test"
+@using GymnasieArbetePlaceringarInterface.IServices
+@using SharedModels.Models.EleverModels
+@using System.Text.Json
+<h3>TestPage</h3>
+
+<MudPaper Height="50vh" Width="60vh" Style="background-color:darkgrey">
+    @foreach (var elev in Elever)
+    {
+        <MudPaper Style="margin-bottom:5px" >
+            <MudText>@elev.name</MudText>
+            <MudText>@elev.place</MudText>
+            <MudText>@elev.distance</MudText>
+            <MudText>@elev.elev</MudText>
+        </MudPaper>
+        
+    }
+</MudPaper>
+
+@code {
+    [Inject]
+    public IGetElevService GetElevService { get; set; }
+    public List<ElevModel> Elever { get; set; } = new List<ElevModel>();
+
+    protected async override Task OnInitializedAsync()
+    {
+        var test = await GetElevService.GetElever();
+        Elever = JsonSerializer.Deserialize<List<ElevModel>>(test);
+    }
+}

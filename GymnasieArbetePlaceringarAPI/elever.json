@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Olle",
+    "place": "",
+    "distance": 2,
+    "elev": "Massimo"
+  },
+  {
+    "name": "Massimo",
+    "place": "",
+    "distance": 2,
+    "elev": "Olle"
+  },
+  {
+    "name": "Walter",
+    "place": "Back",
+    "distance": 0,
+    "elev": ""
+  },
+  {
+    "name": "Elsa",
+    "place": "",
+    "distance": 0,
+    "elev": ""
+  },
+  {
+    "name": "Britt-Marie",
+    "place": "Front",
+    "distance": 0,
+    "elev": ""
+  },
+  {
+    "name": "Billy",
+    "place": "",
+    "distance": 0,
+    "elev": ""
+  },
+  {
+    "name": "Sven",
+    "place": "",
+    "distance": 0,
+    "elev": ""
+  },
+  {
+    "name": "Leif",
+    "place": "",
+    "distance": 0,
+    "elev": ""
+  }
+]

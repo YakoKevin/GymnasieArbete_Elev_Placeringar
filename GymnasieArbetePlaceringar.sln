@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymnasieArbetePlaceringarAPI", "GymnasieArbetePlaceringarAPI\GymnasieArbetePlaceringarAPI.csproj", "{3E829BDF-AA35-4738-B86D-9A8E43C2C386}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedModels", "SharedModels\SharedModels.shproj", "{C6808DD9-A50E-48D5-A489-1C1A0AE156D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GymnasieArbetePlaceringarInterface", "GymnasieArbetePlaceringarInterface\GymnasieArbetePlaceringarInterface.csproj", "{5560EDA5-2CD5-4227-845E-A51C486C3937}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E829BDF-AA35-4738-B86D-9A8E43C2C386}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E829BDF-AA35-4738-B86D-9A8E43C2C386}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E829BDF-AA35-4738-B86D-9A8E43C2C386}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E829BDF-AA35-4738-B86D-9A8E43C2C386}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5560EDA5-2CD5-4227-845E-A51C486C3937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5560EDA5-2CD5-4227-845E-A51C486C3937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5560EDA5-2CD5-4227-845E-A51C486C3937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5560EDA5-2CD5-4227-845E-A51C486C3937}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CC5D9812-DB6A-49F8-ACA4-E925CC121734}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedModels\SharedModels.projitems*{3e829bdf-aa35-4738-b86d-9a8e43c2c386}*SharedItemsImports = 5
+		SharedModels\SharedModels.projitems*{5560eda5-2cd5-4227-845e-a51c486c3937}*SharedItemsImports = 5
+		SharedModels\SharedModels.projitems*{c6808dd9-a50e-48d5-a489-1c1a0ae156d7}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
